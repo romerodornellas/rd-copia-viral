@@ -1,12 +1,12 @@
 ---
-name: copira-rd-viral
-description: Assiste um vídeo viral de verdade (via a skill /watch) e devolve o ROTEIRO PRONTO pra replicar no método Ressuscita Zumbi do Romero Dornellas. Use quando alguém colar um link/arquivo de um Reel/TikTok/vídeo viral e quiser copiar pro próprio negócio (restaurante/delivery). Gatilhos "copia esse viral", "/copira-rd-viral <link>", "monta o escopo replicador desse vídeo", "roteiro pra copiar esse reel".
+name: rd-copia-viral
+description: Assiste um vídeo viral de verdade (via a skill /watch) e devolve o ROTEIRO PRONTO pra replicar no método Ressuscita Zumbi do Romero Dornellas. Use quando alguém colar um link/arquivo de um Reel/TikTok/vídeo viral e quiser copiar pro próprio negócio (restaurante/delivery). Gatilhos "copia esse viral", "/rd-copia-viral <link>", "monta o escopo replicador desse vídeo", "roteiro pra copiar esse reel".
 argument-hint: "<url-ou-arquivo-do-viral> [meu nicho/negócio]"
 user-invocable: true
 allowed-tools: Bash, Read, AskUserQuestion
 ---
 
-# /copira-rd-viral — assiste o viral + método Romero = roteiro pra copiar
+# /rd-copia-viral — assiste o viral + método Romero = roteiro pra copiar
 
 Transforma QUALQUER vídeo viral num roteiro pronto pra gravar, no método Ressuscita Zumbi (Romero Dornellas). Dois passos: **(1) ASSISTIR** o viral de verdade (frames + áudio) com a skill `/watch`, **(2) aplicar o MÉTODO** por cima. O diferencial é o passo 1: você não adivinha o vídeo, você VÊ.
 

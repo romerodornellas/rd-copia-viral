@@ -1,4 +1,4 @@
-# copira-rd-viral
+# rd-copia-viral
 
 Skill de Claude Code que **assiste um vídeo viral de verdade** (frames + áudio) e devolve um **roteiro pronto pra gravar** no método Ressuscita Zumbi (Romero Dornellas): gancho ≤3s, esqueleto em 4 beats, narração palavra por palavra e CTA que fecha em venda.
 
@@ -20,24 +20,24 @@ No macOS, o básico:
 brew install yt-dlp ffmpeg whisper-cpp
 ```
 
-Sem a `watch` instalada, a `copira-rd-viral` avisa e para.
+Sem a `watch` instalada, a `rd-copia-viral` avisa e para.
 
 ## Instalação
 
 ```bash
-git clone https://github.com/romerodornellas/copira-rd-viral ~/.claude/skills/copira-rd-viral
+git clone https://github.com/romerodornellas/rd-copia-viral ~/.claude/skills/rd-copia-viral
 ```
 
-Reinicie a sessão do Claude Code. A skill fica disponível como `/copira-rd-viral`.
+Reinicie a sessão do Claude Code. A skill fica disponível como `/rd-copia-viral`.
 
 ## Uso
 
 ```
-/copira-rd-viral <url-ou-arquivo-do-viral> [seu nicho/negócio]
+/rd-copia-viral <url-ou-arquivo-do-viral> [seu nicho/negócio]
 ```
 
 Exemplos de gatilho:
-- `/copira-rd-viral https://www.instagram.com/reel/XXXX/ hamburgueria`
+- `/rd-copia-viral https://www.instagram.com/reel/XXXX/ hamburgueria`
 - "copia esse viral"
 - "monta o escopo replicador desse vídeo"
 
